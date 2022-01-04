@@ -5,7 +5,7 @@ module.exports = {
     // source_code represents the rust (yew?) source code root
     content: ["./source_code/src/**/*.rs", "./source_code/index.html", "./input/tailwind.css"]
   },
-  darkMode: false, // or 'media' or 'class'
+    darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {},
   },
